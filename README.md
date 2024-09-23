@@ -9,3 +9,6 @@ This a repo where I store my submissions to te website france-ioi for competitiv
 ### Copy the whole text in the clipboard from vim
 
 ### ctags
+```bash
+ctags
+```
