@@ -14,6 +14,7 @@ ctags
 ```
 
 ### vim
+My .vimrc file for C++ development:
 ```vimrc
 " disable vi compatibility (emulation of old bugs)
 set nocompatible
