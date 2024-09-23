@@ -12,3 +12,13 @@ This a repo where I store my submissions to te website france-ioi for competitiv
 ```bash
 ctags
 ```
+
+### vim
+```vimrc
+" disable vi compatibility (emulation of old bugs)
+set nocompatible
+" use indentation of previous line
+set autoindent
+" use intelligent indentation for C
+set smartindent
+```
