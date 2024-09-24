@@ -2,9 +2,27 @@
 This a repo where I store my submissions to te website france-ioi for competitive programming training.
 
 ## Tips
-### gdb .gdbinit config file
-
-### gdb macros
+### gdb .gdbinit config file and macros
+The ~/.gdbinit file can stores macros for gdb. Below is an example of such a macro :
+```gdbinit
+define printCharMatrix 
+  set $arr = $arg0
+	set $lines = $arg1
+	set $cols = $arg2
+	set $i = 0
+	while $i < $lines
+		set $j = 0
+		while $j < $cols
+			printf "%c", $arr[$i][$j]
+			if $j != $cols - 1
+				printf " "
+				end
+			set $j = $j + 1
+			end
+			printf "\n"
+			set $i = $i + 1
+		end
+```
 
 ### Copy the whole text in the clipboard from vim
 ```bash
