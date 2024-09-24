@@ -7,10 +7,15 @@ This a repo where I store my submissions to te website france-ioi for competitiv
 ### gdb macros
 
 ### Copy the whole text in the clipboard from vim
+```bash
+:%w !xclip -sel c
+```
+NOTE : The colon in the command above is from vim prompt in command mode.
 
 ### ctags
+A ctags command adapted to C++ :
 ```bash
-ctags
+ctags -R --kinds-C++=+{prototype}{label}{local} .
 ```
 
 ### vim
