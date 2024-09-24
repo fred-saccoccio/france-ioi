@@ -2,6 +2,7 @@
 This a repo where I store my submissions to te website france-ioi for competitive programming training.
 
 ## Tips
+In the following paragraphs are some tips I use when programming in C++ with Linux for competitive programming.
 ### gdb .gdbinit config file and macros
 The ~/.gdbinit file can stores macros for gdb. Below is an example of such a macro :
 ```gdbinit
