@@ -28,7 +28,8 @@ define printCharMatrix
 ```bash
 :%w !xclip -sel c
 ```
-NOTE : The colon in the command above is from vim prompt in command mode.
+> [!NOTE]
+> The colon (':') in the command above is from vim prompt in command mode.
 
 ### ctags
 A ctags command adapted to C++ :
