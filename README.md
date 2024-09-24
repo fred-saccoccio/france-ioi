@@ -40,10 +40,14 @@ ctags -R --kinds-C++=+{prototype}{label}{local} .
 ### vim
 My .vimrc file for C++ development:
 ```vimrc
-" disable vi compatibility (emulation of old bugs)
-set nocompatible
-" use indentation of previous line
-set autoindent
-" use intelligent indentation for C
-set smartindent
+:set number
+:set ts=2
+:syntax on
+set tags=./tags,tags;$HOME
+set shiftwidth=2   
+set autoindent    
+set smartindent   
+set scrolloff=10   
+syntax on 
+
 ```
