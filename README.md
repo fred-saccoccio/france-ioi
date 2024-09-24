@@ -4,7 +4,7 @@ This a repo where I store my submissions to te website france-ioi for competitiv
 ## Tips
 In the following paragraphs are some tips I use when programming in C++ with Linux for competitive programming.
 ### gdb .gdbinit config file and macros
-The ~/.gdbinit file can stores macros for gdb. Below is an example of such a macro :
+The `~/.gdbinit` file can stores macros for gdb. Below is an example of such a macro :
 ```gdbinit
 define printCharMatrix 
   set $arr = $arg0
@@ -30,7 +30,7 @@ define printCharMatrix
 :%w !xclip -sel c
 ```
 > [!NOTE]
-> The colon (':') in the command above is from vim prompt in command mode.
+> The colon (`:`) in the command above is from vim prompt in command mode.
 
 ### ctags
 A ctags command adapted to C++ :
