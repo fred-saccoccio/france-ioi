@@ -1,6 +1,7 @@
 nclude <iostream>
 #include "robot.h"
 using namespace std;
+
 int main()
 {
   deplacer(1, 2);
