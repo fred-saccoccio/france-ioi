@@ -6,12 +6,12 @@ int getShift(int page)
   int retVal = 0;
   if(page%2 == 0)
   {
-    // 3 * X si X est pair
+    // 3 * X if X is even
     retVal = 3 * page;
   }
   else
   {
-    // - 5 * X si X est impair
+    // - 5 * X if X is odd
     retVal = -5 * page;
   }
 
