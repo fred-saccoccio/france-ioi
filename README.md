@@ -24,7 +24,7 @@ define printCharMatrix
 			set $i = $i + 1
 		end
 ```
-The following script applies to a vector<vector<char>> : 
+The following script applies to a vector&lt;vector&lt;char&gt;&gt; : 
 ```gdbinit
 python
 import gdb
