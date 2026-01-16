@@ -1,6 +1,19 @@
 # france-ioi
 This a repo where I store my submissions to te website france-ioi for competitive programming training.
 
+## C++ code template
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+	return 0
+}
+```
+
 ## Tips
 In the following paragraphs are some tips I use when programming in C++ with Linux for competitive programming.
 ### gdb .gdbinit config file and macros
