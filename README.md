@@ -2,7 +2,7 @@
 This a repo where I store my submissions to te website france-ioi for competitive programming training.
 
 ## C++ code template
-Here follows a small template for competitive programming :
+Here follows a small template for competitive programming with some optimization for I/O on stdin/stdout:
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
